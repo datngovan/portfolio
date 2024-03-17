@@ -5,12 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    borderRadius:{
+      hero: "60% 40% 30% 70%/60% 30% 70% 40%"
+    },
     extend: {
       backgroundImage:{
-        dot: "url(./assets/dot.svg)"},
+        dot: "url(./assets/dot.svg)",
+        hero: "url(./assets/hero.jpg)"},
         animation: {
           typewriter: 'typewriter 5s steps(50) forwards',
           caret: 'typewriter 5s steps(50) forwards, blink 2s steps(50) infinite',
+          morph: "morph 8s ease-in-out infinite"
         },
         keyframes: {
           typewriter: {
@@ -52,6 +57,17 @@ export default {
               opacity: '0',
             },
           },
+          morph:{
+            '0%': {
+              borderRadius: '60% 40% 30% 70%/60% 30% 70% 40%'
+            },
+            '50%': {
+              borderRadius: '30% 60% 70% 40%/50% 60% 30% 60%'
+            },
+            '100%': {
+              borderRadius: '60% 40% 30% 70%/60% 30% 70% 40%'
+            }
+          }
         },
     },
     
