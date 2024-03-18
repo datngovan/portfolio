@@ -1,9 +1,13 @@
 function App() {
   return (
     <>
-      <div className="flex flex-col justify-center items-center bg-dot min-h-screen gap-10">
-        <div className="bg-hero bg-cover size-[25rem] bg-center rounded-hero animate-morph transition-all duration-1000 ease-in-out border-[5px] border-black"></div>
-        <p className="text-xs lg:text-base text-neutral-600 bg-transparent">
+      <div className="flex flex-col justify-center items-center bg-dot min-h-screen min-w-full gap-10 bg-white">
+      <div className="flex flex-col justify-center items-center min-h-screen min-w-full font-mono font-semibold text-3xl bg-white animate-fadeOutDelay fixed z-[99999]">
+          <p className="z-[9999] animate-fadeOut">Ngo Van Dat</p>
+          <p className="z-[9999] font-thin animate-fadeOut">Portfolio</p>
+      </div>
+        <div className="bg-hero bg-cover size-[20rem] lg:size-[25rem] bg-center rounded-hero animate-morph border-[5px] border-black"/>
+        <p className="text-xs lg:text-base text-neutral-600 bg-transparent font-mono">
           Hello, my name's Dat Ngo. A passionate Software Engineer.
         </p>
         <p
@@ -11,12 +15,12 @@ function App() {
 before:absolute before:inset-0 before:animate-typewriter before:bg-white 
 after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-black"
         >
-          <p className="text-amber-400">{`<h1>`}&ensp;</p>I'm develop&ensp;
+          <p className="text-amber-400">{`<h1>`}</p>I'm develop&ensp;
           <p className="text-sm lg:text-3xl text-sky-500 font-bold">
             ReactJS/NextJS
           </p>
           &nbsp;aplications&ensp;
-          <p className="text-amber-400">{`</h1>`}&ensp;</p>
+          <p className="text-amber-400">{`</h1>`}</p>
         </p>
         <div className="flex items-center justify-center gap-5">
           <div className="font-mono font-semibold lg:text-3xl border-r-[3px] border-zinc-400 px-2">

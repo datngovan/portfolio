@@ -13,9 +13,11 @@ export default {
         dot: "url(./assets/dot.svg)",
         hero: "url(./assets/hero.jpg)"},
         animation: {
-          typewriter: 'typewriter 5s steps(50) forwards',
-          caret: 'typewriter 5s steps(50) forwards, blink 2s steps(50) infinite',
-          morph: "morph 8s ease-in-out infinite"
+          typewriter: 'typewriter 5s steps(48) forwards',
+          caret: 'typewriter 5s steps(48) forwards, blink 2s steps(48) infinite',
+          morph: "morph 8s ease-in-out infinite",
+          fadeOut: "5s normal forwards running fadeIn",
+          fadeOutDelay: "10s normal forwards running fadeIn"
         },
         keyframes: {
           typewriter: {
@@ -66,6 +68,14 @@ export default {
             },
             '100%': {
               borderRadius: '60% 40% 30% 70%/60% 30% 70% 40%'
+            }
+          },
+          fadeIn:{
+            from:{
+              opacity:"1"
+            },
+            to:{
+              opacity:"0"
             }
           }
         },
