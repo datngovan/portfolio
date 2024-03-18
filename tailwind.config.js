@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
     borderRadius:{
-      hero: "60% 40% 30% 70%/60% 30% 70% 40%"
+      hero: "60% 40% 30% 70%/60% 30% 70% 40%",
+      "2xl": "border-radius: 1rem"
     },
     extend: {
       backgroundImage:{
@@ -16,7 +17,7 @@ export default {
           typewriter: 'typewriter 5s steps(48) forwards',
           caret: 'typewriter 5s steps(48) forwards, blink 2s steps(48) infinite',
           morph: "morph 8s ease-in-out infinite",
-          fadeOut: "5s normal forwards running fadeIn",
+          fadeOut: "2s normal forwards running fadeIn",
           fadeOutDelay: "10s normal forwards running fadeIn"
         },
         keyframes: {
