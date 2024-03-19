@@ -12,10 +12,10 @@ function ProjectCard({reverse , data}) {
         <div className="flex gap-2 justify-center items-center">
         <div className="grid grid-cols-2 gap-2">
         <button className="bg-zinc-100 text-black px-4 py-2 border rounded-lg text-center font-bold text-lg self-center font-mono flex justify-center items-center gap-2">
-            Code <img src="../public/github.svg" className="size-[20px]"/>
+            Code <img src="/github.svg" className="size-[20px]"/>
           </button>
           <button className="bg-zinc-100 text-black px-4 py-2 border rounded-lg text-center font-bold text-lg self-center font-mono flex justify-center items-center gap-2">
-            Live Demo <img src="../public/newtab.svg" className="size-[20px]"/>
+            Live Demo <img src="/newtab.svg" className="size-[20px]"/>
           </button>
         </div>
         </div>

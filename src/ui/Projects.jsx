@@ -5,20 +5,20 @@ const data = [
     technologies: "NextJS TailwindCSS",
     github:"#",
     demo: "#",
-    img: "../public/banhcuontayho.png"
+    img: "/banhcuontayho.png"
   },
   {name: "RentCar 🚘",
     description: "Rent Car is a website to rent luxury car for personal and business uses. The website come with searching function base on your location, pickup and return time and reserve cars",
     technologies: "React TailwindCSS",
     github:"#",
     demo: "#",
-    img: "../public/rentcar.png"},
+    img: "/rentcar.png"},
     {name: "Suel's Homestay ⛺",
     description: "Suel Homestay managements website is a website for homestays owner and staffs to check the status of each properties and their performace during amount of time",
     technologies: "React StyledComponent Supabase PostgresSQL",
     github:"#",
     demo: "#",
-    img: "../public/suel.png"}
+    img: "/suel.png"}
   ]
 function Projects() {
     return (

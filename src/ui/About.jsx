@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div className="grid grid-rows-2 lg:grid-cols-2 grid-rows-1 font-mono lg:py-[150px] items-center gap-10 lg:p-[15rem] py-[5rem]">
+        <div className="grid grid-rows-2 grid-cols-1 lg:grid-cols-2 lg:grid-rows-1 font-mono lg:py-[150px] items-center gap-10 lg:p-[15rem] py-[5rem]">
       <div className="lg:mx-auto  mx-5">
       <img className="rounded-[16px]" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29kZXxlbnwwfHwwfHx8MA%3D%3D"/>
       </div>
