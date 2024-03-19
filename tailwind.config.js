@@ -17,8 +17,8 @@ export default {
           typewriter: 'typewriter 5s steps(48) forwards',
           caret: 'typewriter 5s steps(48) forwards, blink 2s steps(48) infinite',
           morph: "morph 8s ease-in-out infinite",
-          fadeOut: "2s normal forwards running fadeIn",
-          fadeOutDelay: "10s normal forwards running fadeIn"
+          fadeOut: "1s normal forwards running fadeIn",
+          fadeOutDelay: "1s normal forwards running fadeIn"
         },
         keyframes: {
           typewriter: {

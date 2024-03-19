@@ -1,12 +1,12 @@
 const contacts = [
     {
-      url: "../src/assets/location.svg",
+      url: "../public/location.svg",
       title: "Location",
       content: "Ho Chi Minh City, Vietname",
     },
 
     {
-      url: "../src/assets/email.svg",
+      url: "../public/email.svg",
       title: "Email",
       content: "datngo.qlct@gmail.com",
     },
